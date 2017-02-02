@@ -1,7 +1,64 @@
 * {
-	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
 }
 
-body {
-  padding-top: 50px;
+header {
+	background-color: green;
+}
+
+head {
+	background-color: green;
+}
+
+img {
+	width: 100%;
+}
+
+.title {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+.video-container {
+	border: 1px solid grey;
+}
+
+.initial-search-h1 {
+	width: 570px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 5em;
+}
+
+.js-search-form {
+	width: 215px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.video-title {
+	height: 40px;
+}
+
+.channel-title {
+	height: 20px;
+}
+
+.js-next-button {
+	font-size: 1.2em;
+}
+
+.js-next-button-container {
+	width: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.more-from-channel-button {
+	width: 100%;
+	margin-top: 10px;
 }
