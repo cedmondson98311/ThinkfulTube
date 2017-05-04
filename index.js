@@ -1,3 +1,7 @@
+if(location.href.indexOf('?') < 0){
+	window.location = location.href + '?';
+}
+
 //global variables
 var googleEndpoint = "https://www.googleapis.com/youtube/v3/search";
 var userQuery = '';
@@ -11,6 +15,7 @@ function getInitialAPIData(searchTerm,callback) {
 		key: 'AIzaSyASvfSIkuHPH8YG2lcxX9I1DColaBwq8CM',
 		q: searchTerm,
 	}
+	console.log($.getJSON(googleEndpoint,settings,callback))
 	$.getJSON(googleEndpoint,settings,callback);
 };
 
