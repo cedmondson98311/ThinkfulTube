@@ -15,7 +15,9 @@ function getInitialAPIData(searchTerm,callback) {
 		key: 'AIzaSyASvfSIkuHPH8YG2lcxX9I1DColaBwq8CM',
 		q: searchTerm,
 	}
-	console.log($.getJSON(googleEndpoint,settings,callback))
+	var response = $.getJSON(googleEndpoint,settings,callback);
+
+	console.log(response)
 	$.getJSON(googleEndpoint,settings,callback);
 };
 
